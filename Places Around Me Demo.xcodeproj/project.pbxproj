@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2F098E91E08FAB30088191B /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F098E81E08FAB30088191B /* PlacesTableViewController.m */; };
+		F2F098EB1E08FF330088191B /* hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F098EA1E08FF330088191B /* hotel.png */; };
+		F2F098ED1E08FF3E0088191B /* police.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2F098EC1E08FF3E0088191B /* police.jpeg */; };
+		F2F098F11E09023C0088191B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F098EF1E09023C0088191B /* CollectionViewCell.m */; };
+		F2F098F21E09023C0088191B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F098F01E09023C0088191B /* CollectionViewCell.xib */; };
+		F2F098F61E0921550088191B /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F098F41E0921550088191B /* Fabric.framework */; };
+		F2F098F71E0921550088191B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F098F51E0921550088191B /* Crashlytics.framework */; };
+		F2FF88371E07B4C600DD50E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF88361E07B4C600DD50E2 /* main.m */; };
+		F2FF883A1E07B4C600DD50E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF88391E07B4C600DD50E2 /* AppDelegate.m */; };
+		F2FF88401E07B4C600DD50E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF883E1E07B4C600DD50E2 /* Main.storyboard */; };
+		F2FF88421E07B4C600DD50E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FF88411E07B4C600DD50E2 /* Assets.xcassets */; };
+		F2FF88451E07B4C600DD50E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF88431E07B4C600DD50E2 /* LaunchScreen.storyboard */; };
+		F2FF88501E07B4C600DD50E2 /* Places_Around_Me_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF884F1E07B4C600DD50E2 /* Places_Around_Me_DemoTests.m */; };
+		F2FF885B1E07B4C600DD50E2 /* Places_Around_Me_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF885A1E07B4C600DD50E2 /* Places_Around_Me_DemoUITests.m */; };
+		F2FF886A1E07C82700DD50E2 /* PlacesCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF88691E07C82700DD50E2 /* PlacesCollection.m */; };
+		F2FF886E1E07CB8B00DD50E2 /* atm.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF886B1E07CB8B00DD50E2 /* atm.png */; };
+		F2FF886F1E07CB8B00DD50E2 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF886C1E07CB8B00DD50E2 /* bus.png */; };
+		F2FF88701E07CB8B00DD50E2 /* hospital.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2FF886D1E07CB8B00DD50E2 /* hospital.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2FF884C1E07B4C600DD50E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FF882A1E07B4C600DD50E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FF88311E07B4C600DD50E2;
+			remoteInfo = "Places Around Me Demo";
+		};
+		F2FF88571E07B4C600DD50E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FF882A1E07B4C600DD50E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FF88311E07B4C600DD50E2;
+			remoteInfo = "Places Around Me Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2F098E71E08FAB30088191B /* PlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewController.h; sourceTree = "<group>"; };
+		F2F098E81E08FAB30088191B /* PlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
+		F2F098EA1E08FF330088191B /* hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel.png; sourceTree = "<group>"; };
+		F2F098EC1E08FF3E0088191B /* police.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = police.jpeg; sourceTree = "<group>"; };
+		F2F098EE1E09023C0088191B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		F2F098EF1E09023C0088191B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		F2F098F01E09023C0088191B /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F2F098F41E0921550088191B /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		F2F098F51E0921550088191B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		F2FF88321E07B4C600DD50E2 /* Places Around Me Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Places Around Me Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF88361E07B4C600DD50E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2FF88381E07B4C600DD50E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2FF88391E07B4C600DD50E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2FF883F1E07B4C600DD50E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2FF88411E07B4C600DD50E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FF88441E07B4C600DD50E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2FF88461E07B4C600DD50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF884B1E07B4C600DD50E2 /* Places Around Me DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Places Around Me DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF884F1E07B4C600DD50E2 /* Places_Around_Me_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Places_Around_Me_DemoTests.m; sourceTree = "<group>"; };
+		F2FF88511E07B4C600DD50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF88561E07B4C600DD50E2 /* Places Around Me DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Places Around Me DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF885A1E07B4C600DD50E2 /* Places_Around_Me_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Places_Around_Me_DemoUITests.m; sourceTree = "<group>"; };
+		F2FF885C1E07B4C600DD50E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF88681E07C82700DD50E2 /* PlacesCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesCollection.h; path = ../PlacesCollection.h; sourceTree = "<group>"; };
+		F2FF88691E07C82700DD50E2 /* PlacesCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesCollection.m; path = ../PlacesCollection.m; sourceTree = "<group>"; };
+		F2FF886B1E07CB8B00DD50E2 /* atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atm.png; sourceTree = "<group>"; };
+		F2FF886C1E07CB8B00DD50E2 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		F2FF886D1E07CB8B00DD50E2 /* hospital.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hospital.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FF882F1E07B4C600DD50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F098F71E0921550088191B /* Crashlytics.framework in Frameworks */,
+				F2F098F61E0921550088191B /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88481E07B4C600DD50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88531E07B4C600DD50E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2FF88291E07B4C600DD50E2 = {
+			isa = PBXGroup;
+			children = (
+				F2F098EE1E09023C0088191B /* CollectionViewCell.h */,
+				F2F098EF1E09023C0088191B /* CollectionViewCell.m */,
+				F2F098F01E09023C0088191B /* CollectionViewCell.xib */,
+				F2FF88341E07B4C600DD50E2 /* Places Around Me Demo */,
+				F2FF884E1E07B4C600DD50E2 /* Places Around Me DemoTests */,
+				F2FF88591E07B4C600DD50E2 /* Places Around Me DemoUITests */,
+				F2FF88331E07B4C600DD50E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FF88331E07B4C600DD50E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF88321E07B4C600DD50E2 /* Places Around Me Demo.app */,
+				F2FF884B1E07B4C600DD50E2 /* Places Around Me DemoTests.xctest */,
+				F2FF88561E07B4C600DD50E2 /* Places Around Me DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FF88341E07B4C600DD50E2 /* Places Around Me Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF88381E07B4C600DD50E2 /* AppDelegate.h */,
+				F2FF88391E07B4C600DD50E2 /* AppDelegate.m */,
+				F2FF883E1E07B4C600DD50E2 /* Main.storyboard */,
+				F2F098E71E08FAB30088191B /* PlacesTableViewController.h */,
+				F2F098E81E08FAB30088191B /* PlacesTableViewController.m */,
+				F2FF88681E07C82700DD50E2 /* PlacesCollection.h */,
+				F2FF88691E07C82700DD50E2 /* PlacesCollection.m */,
+				F2FF886B1E07CB8B00DD50E2 /* atm.png */,
+				F2F098F41E0921550088191B /* Fabric.framework */,
+				F2F098F51E0921550088191B /* Crashlytics.framework */,
+				F2F098EA1E08FF330088191B /* hotel.png */,
+				F2F098EC1E08FF3E0088191B /* police.jpeg */,
+				F2FF886C1E07CB8B00DD50E2 /* bus.png */,
+				F2FF886D1E07CB8B00DD50E2 /* hospital.jpeg */,
+				F2FF88411E07B4C600DD50E2 /* Assets.xcassets */,
+				F2FF88431E07B4C600DD50E2 /* LaunchScreen.storyboard */,
+				F2FF88461E07B4C600DD50E2 /* Info.plist */,
+				F2FF88351E07B4C600DD50E2 /* Supporting Files */,
+			);
+			path = "Places Around Me Demo";
+			sourceTree = "<group>";
+		};
+		F2FF88351E07B4C600DD50E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF88361E07B4C600DD50E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2FF884E1E07B4C600DD50E2 /* Places Around Me DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF884F1E07B4C600DD50E2 /* Places_Around_Me_DemoTests.m */,
+				F2FF88511E07B4C600DD50E2 /* Info.plist */,
+			);
+			path = "Places Around Me DemoTests";
+			sourceTree = "<group>";
+		};
+		F2FF88591E07B4C600DD50E2 /* Places Around Me DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF885A1E07B4C600DD50E2 /* Places_Around_Me_DemoUITests.m */,
+				F2FF885C1E07B4C600DD50E2 /* Info.plist */,
+			);
+			path = "Places Around Me DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FF88311E07B4C600DD50E2 /* Places Around Me Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FF885F1E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me Demo" */;
+			buildPhases = (
+				F2FF882E1E07B4C600DD50E2 /* Sources */,
+				F2FF882F1E07B4C600DD50E2 /* Frameworks */,
+				F2FF88301E07B4C600DD50E2 /* Resources */,
+				F2F098F31E0921190088191B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Places Around Me Demo";
+			productName = "Places Around Me Demo";
+			productReference = F2FF88321E07B4C600DD50E2 /* Places Around Me Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2FF884A1E07B4C600DD50E2 /* Places Around Me DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FF88621E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me DemoTests" */;
+			buildPhases = (
+				F2FF88471E07B4C600DD50E2 /* Sources */,
+				F2FF88481E07B4C600DD50E2 /* Frameworks */,
+				F2FF88491E07B4C600DD50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FF884D1E07B4C600DD50E2 /* PBXTargetDependency */,
+			);
+			name = "Places Around Me DemoTests";
+			productName = "Places Around Me DemoTests";
+			productReference = F2FF884B1E07B4C600DD50E2 /* Places Around Me DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2FF88551E07B4C600DD50E2 /* Places Around Me DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FF88651E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me DemoUITests" */;
+			buildPhases = (
+				F2FF88521E07B4C600DD50E2 /* Sources */,
+				F2FF88531E07B4C600DD50E2 /* Frameworks */,
+				F2FF88541E07B4C600DD50E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FF88581E07B4C600DD50E2 /* PBXTargetDependency */,
+			);
+			name = "Places Around Me DemoUITests";
+			productName = "Places Around Me DemoUITests";
+			productReference = F2FF88561E07B4C600DD50E2 /* Places Around Me DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FF882A1E07B4C600DD50E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Student-001";
+				TargetAttributes = {
+					F2FF88311E07B4C600DD50E2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F2FF884A1E07B4C600DD50E2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F2FF88311E07B4C600DD50E2;
+					};
+					F2FF88551E07B4C600DD50E2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F2FF88311E07B4C600DD50E2;
+					};
+				};
+			};
+			buildConfigurationList = F2FF882D1E07B4C600DD50E2 /* Build configuration list for PBXProject "Places Around Me Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FF88291E07B4C600DD50E2;
+			productRefGroup = F2FF88331E07B4C600DD50E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FF88311E07B4C600DD50E2 /* Places Around Me Demo */,
+				F2FF884A1E07B4C600DD50E2 /* Places Around Me DemoTests */,
+				F2FF88551E07B4C600DD50E2 /* Places Around Me DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FF88301E07B4C600DD50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FF886F1E07CB8B00DD50E2 /* bus.png in Resources */,
+				F2FF886E1E07CB8B00DD50E2 /* atm.png in Resources */,
+				F2FF88451E07B4C600DD50E2 /* LaunchScreen.storyboard in Resources */,
+				F2F098ED1E08FF3E0088191B /* police.jpeg in Resources */,
+				F2F098EB1E08FF330088191B /* hotel.png in Resources */,
+				F2FF88421E07B4C600DD50E2 /* Assets.xcassets in Resources */,
+				F2FF88401E07B4C600DD50E2 /* Main.storyboard in Resources */,
+				F2FF88701E07CB8B00DD50E2 /* hospital.jpeg in Resources */,
+				F2F098F21E09023C0088191B /* CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88491E07B4C600DD50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88541E07B4C600DD50E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2F098F31E0921190088191B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ce382c0e81c9e8660bb6d069ff37264fcec41b12 fd458981ce43990a2bc838796074642171b02542756c5e8228789d8f3ca924a2";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FF882E1E07B4C600DD50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FF886A1E07C82700DD50E2 /* PlacesCollection.m in Sources */,
+				F2F098F11E09023C0088191B /* CollectionViewCell.m in Sources */,
+				F2F098E91E08FAB30088191B /* PlacesTableViewController.m in Sources */,
+				F2FF883A1E07B4C600DD50E2 /* AppDelegate.m in Sources */,
+				F2FF88371E07B4C600DD50E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88471E07B4C600DD50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FF88501E07B4C600DD50E2 /* Places_Around_Me_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF88521E07B4C600DD50E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FF885B1E07B4C600DD50E2 /* Places_Around_Me_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2FF884D1E07B4C600DD50E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FF88311E07B4C600DD50E2 /* Places Around Me Demo */;
+			targetProxy = F2FF884C1E07B4C600DD50E2 /* PBXContainerItemProxy */;
+		};
+		F2FF88581E07B4C600DD50E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FF88311E07B4C600DD50E2 /* Places Around Me Demo */;
+			targetProxy = F2FF88571E07B4C600DD50E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2FF883E1E07B4C600DD50E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FF883F1E07B4C600DD50E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FF88431E07B4C600DD50E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FF88441E07B4C600DD50E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2FF885D1E07B4C600DD50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2FF885E1E07B4C600DD50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FF88601E07B4C600DD50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Places",
+					Around,
+					Me,
+					Demo,
+				);
+				INFOPLIST_FILE = "Places Around Me Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2FF88611E07B4C600DD50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Places",
+					Around,
+					Me,
+					Demo,
+				);
+				INFOPLIST_FILE = "Places Around Me Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2FF88631E07B4C600DD50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Places Around Me DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Places Around Me Demo.app/Places Around Me Demo";
+			};
+			name = Debug;
+		};
+		F2FF88641E07B4C600DD50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Places Around Me DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Places Around Me Demo.app/Places Around Me Demo";
+			};
+			name = Release;
+		};
+		F2FF88661E07B4C600DD50E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Places Around Me DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Places Around Me Demo";
+			};
+			name = Debug;
+		};
+		F2FF88671E07B4C600DD50E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Places Around Me DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.Places-Around-Me-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Places Around Me Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FF882D1E07B4C600DD50E2 /* Build configuration list for PBXProject "Places Around Me Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF885D1E07B4C600DD50E2 /* Debug */,
+				F2FF885E1E07B4C600DD50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FF885F1E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF88601E07B4C600DD50E2 /* Debug */,
+				F2FF88611E07B4C600DD50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FF88621E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF88631E07B4C600DD50E2 /* Debug */,
+				F2FF88641E07B4C600DD50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FF88651E07B4C600DD50E2 /* Build configuration list for PBXNativeTarget "Places Around Me DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FF88661E07B4C600DD50E2 /* Debug */,
+				F2FF88671E07B4C600DD50E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2FF882A1E07B4C600DD50E2 /* Project object */;
+}
