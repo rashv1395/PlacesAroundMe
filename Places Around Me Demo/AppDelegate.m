@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
-    //rahul  vengurlekar
+    //rahul  vengurlekar is mad
     
     [Fabric with:@[[Crashlytics class]]];
 
